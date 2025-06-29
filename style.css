@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('assets/arkaplan.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 800px;
+}
+button {
+  background-color: #ffa726;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dialogue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.dialogue img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.speech {
+  background: #fff8dc;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+}

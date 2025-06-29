@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tavuk İmparatorluğu - V12 FULL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro" class="container">
+    <h1>🐔 Tavuk İmparatorunun İntikamı</h1>
+    <div class="dialogue">
+      <img src="assets/ben.png" /><div class="speech">Her şeyimi kaybettim... Ama bu son değil.</div>
+    </div>
+    <div class="dialogue">
+      <img src="assets/karim.png" /><div class="speech">Seninle daha fazla kalamam! Kızımı da alıyorum!</div>
+    </div>
+    <div class="dialogue">
+      <img src="assets/kizim.png" /><div class="speech">Hoşça kal baba... Umarım bir gün mutlu olursun.</div>
+    </div>
+    <div class="dialogue">
+      <img src="assets/ben.png" /><div class="speech"><strong>Bir gün her şeyi geri alacağım... Ve Tavuk İmparatoru olacağım!</strong></div>
+    </div>
+    <button onclick="startGame()">▶️ Oyuna Başla</button>
+  </div>
+
+  <div id="game" class="container" style="display:none;">
+    <h2>🐣 İmparatorluk Başladı</h2>
+    <p>Yumurta: <span id="egg">0</span> | Sertifika: <span id="cert">0</span></p>
+    <p>Pasif Gelir: <span id="passive">0</span> | Çarpan: <span id="multiplier">1</span></p>
+    <button onclick="layEgg()">🥚 Yumurtla</button>
+    <button onclick="buyFarm()">Kümes (10 sertifika)</button>
+    <button onclick="buyMachine()">Makine (20 sertifika)</button>
+    <button onclick="buyMedal()">Madalya (30 sertifika)</button>
+    <br><br>
+    <button onclick="openGameCenter()">🎮 Oyun Merkezi</button>
+    <button onclick="openTree()">🌳 Gelişim Ağacı</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
